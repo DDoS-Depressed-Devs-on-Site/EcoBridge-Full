@@ -1,0 +1,102 @@
+:root {
+  --PrimaryColorEmeraldGreen: hsl(145, 63%, 49%);
+  --PrimaryColorTealBlue: hsl(180, 100%, 25%);
+  --SecondaryColorSunflowerYellow: hsl(45, 100%, 51%);
+  --SecondaryColorSoftOrange: hsl(29, 100%, 63%);
+  --AccentColorCoralRed: hsl(0, 100%, 71%);
+  --AccentColorWarmPink: hsl(343, 100%, 65%);
+  --AccentColorNavyBlue: hsl(240, 28%, 14%);
+  --HoverSunflowerYellow: hsl(45, 97%, 60%);
+  --HoverNavyBlue: hsl(240, 21%, 17%);
+  --HoverEmeraldGreen: hsl(145, 85%, 58%);
+}
+
+.header-container {
+  padding: .1rem 4.2rem;
+  margin: auto;
+}
+
+.header-text {
+  margin-top: 6rem;
+  margin-bottom: .5rem;
+}
+
+.new-donate-btn {
+  background: var(--PrimaryColorEmeraldGreen);
+}
+
+.yellow-highlight {
+  color:var(--SecondaryColorSunflowerYellow)
+}
+
+.green-highlight {
+  color: var(--PrimaryColorEmeraldGreen);
+}
+
+.search-id {
+  padding: 0.2rem 1rem;
+}
+
+.main-container {
+  margin-left: 1.5rem;
+}
+
+.transaction-container {
+  margin-top: 1.2rem;
+  scrollbar-width: none;
+  scrollbar-color: var(--SecondaryColorSunflowerYellow) var(--SecondaryColorSoftOrange);
+}
+
+.transaction-label {
+  font-weight: 600;
+  text-align: center;
+}
+
+.details-div {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.details-div::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--AccentColorNavyBlue);
+  margin: 2px;
+  position: absolute;
+  bottom: -15px;
+}
+
+.win-div::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: var(--AccentColorNavyBlue);
+    justify-content: center;
+    position: absolute;
+    bottom: -10px;
+    margin: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* margin-bottom: 3rem; */
+  }
+
+.arrow {
+  fill: var(--SecondaryColorSunflowerYellow);
+}
+
+.side-window-container {
+  position: relative;
+  right: 1%;
+  transition: 0.5s ease;
+  scrollbar-width: none;
+  
+}
+
+.active-window {
+  right: 0;
+  scrollbar-width: none;
+  scrollbar-color: var(--SecondaryColorSunflowerYellow) var(--SecondaryColorSoftOrange);
+}

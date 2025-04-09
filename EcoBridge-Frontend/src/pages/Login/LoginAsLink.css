@@ -1,0 +1,20 @@
+.login-or-divider {
+    padding-top: 4px;
+}
+
+.login-as-question {
+    padding-top: 4px;
+
+    color: #2ECC71;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-as-role {
+    color: #FFC107;
+}
+
+.login-as-role:hover {
+    text-decoration: underline;
+    color: #FFC107;
+}

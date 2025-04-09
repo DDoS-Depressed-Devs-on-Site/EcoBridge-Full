@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat';
+    color: #1A1A2E;
+}
+
+.signup-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.register-container {
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.create-account-container {
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px grey; 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-account-container h6 {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 100px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.create-org-button {
+    background-color: #2ECC71;
+    border: none;
+    border-radius: 16px;
+    width: 256px;
+    height: 44px;
+    padding: 8px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.create-user-button {
+    background-color: #FFC107;
+    border: none;
+    border-radius: 16px;
+    width: 256px;
+    height: 44px;
+    padding: 8px;
+
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup-loginlink .login-question {
+    top: 84%;
+    left: 62.5%;
+}

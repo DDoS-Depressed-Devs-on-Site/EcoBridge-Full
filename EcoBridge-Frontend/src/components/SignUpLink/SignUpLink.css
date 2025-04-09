@@ -1,0 +1,20 @@
+.or-divider {
+    padding-top: 4px;
+}
+
+.signup-question {
+    padding-top: 4px;
+
+    color: #2ECC71;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup-role {
+    color: #FFC107;
+}
+
+.signup-role:hover {
+    text-decoration: underline;
+    color: #FFC107;
+}

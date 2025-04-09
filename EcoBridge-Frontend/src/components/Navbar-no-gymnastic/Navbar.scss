@@ -1,0 +1,51 @@
+:root {
+  --PrimaryColorEmeraldGreen: hsl(145, 63%, 49%);
+  --PrimaryColorTealBlue: hsl(180, 100%, 25%);
+  --SecondaryColorSunflowerYellow: hsl(45, 100%, 51%);
+  --SecondaryColorSoftOrange: hsl(29, 100%, 63%);
+  --AccentColorCoralRed: hsl(0, 100%, 71%);
+  --AccentColorWarmPink: hsl(343, 100%, 65%);
+  --AccentColorNavyBlue: hsl(240, 28%, 14%);
+}
+
+.navbar-section {
+  .header {
+    position: fixed;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1.5rem 5rem;
+
+    .logo-div {
+      .logo {
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+          padding-left: 3rem;
+        }
+      }
+    }
+
+    .navbar {
+      .nav-lists {
+        .nav-item {
+          padding: 0 1.5rem;
+
+          .nav-link {
+            text-transform: uppercase;
+            font-family: "Montserrat";
+            font-weight: 600;
+            color: #fff;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .active-header {
+    background: hsla(240, 28%, 14%, 0.9);
+    // box-shadow: 0 2px 8px 2px;
+  }
+}

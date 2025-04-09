@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  font-family: "Montserrat";
+  color: #1a1a2e;
+}
+
+.signup-user-loginlink .login-question {
+  top: 80%;
+  left: 40px;
+
+  font-size: 20px;
+}
+
+.register-container {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  overflow: auto;
+}
+
+.register-container h2 {
+  text-align: center;
+
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.account-type {
+  text-align: center;
+
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.signup-org-form {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.profile-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cover-container {
+  margin-bottom: 10px;
+}
+
+.cover-img {
+  width: 100%;
+  height: 200px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.signup-user-form label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.signup-user-form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.terms-container {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terms-container input {
+  width: 13px;
+
+  flex: 0;
+}
+
+.terms-container p {
+  margin-left: 8px;
+  margin-bottom: 4px;
+
+  color: grey;
+  font-size: 12px;
+}
+
+.signup-user-next-button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1c1c3d;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.signup-user-next-button:hover {
+  background-color: #2a2a5a;
+}
+
+.signup-user-back-button {
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #1a1a2e;
+  border-radius: 20px;
+
+  color: #1a1a2e;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.signup-user-button {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1c1c3d;
+
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.signup-user-button:hover {
+  background-color: #2a2a5a;
+}

@@ -1,0 +1,188 @@
+:root {
+  --PrimaryColorEmeraldGreen: hsl(145, 63%, 49%);
+  --PrimaryColorTealBlue: hsl(180, 100%, 25%);
+  --SecondaryColorSunflowerYellow: hsl(45, 100%, 51%);
+  --SecondaryColorSoftOrange: hsl(29, 100%, 63%);
+  --AccentColorCoralRed: hsl(0, 100%, 71%);
+  --AccentColorWarmPink: hsl(343, 100%, 65%);
+  --AccentColorNavyBlue: hsl(240, 28%, 14%);
+  --HoverSunflowerYellow: hsl(45, 97%, 60%);
+  --HoverNavyBlue: hsl(240, 21%, 17%);
+  --HoverEmeraldGreen: hsl(145, 85%, 58%);
+}
+
+.donation-modal {
+  width: 95vw;
+  border-radius: 20px;
+  margin: 2rem;
+
+  .logo-div {
+    margin: 1rem;
+
+    .tagline {
+      font-weight: 600;
+    }
+  }
+
+  .modal-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    // background: red;
+
+    .form-container {
+      grid-template-columns: 1fr 1fr;
+      // gap: 1rem;
+      width: 100%;
+      max-width: 2000px;
+
+      .left-div,
+      .right-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
+        .p-label {
+          font-size: 1.1rem;
+        }
+
+        .user-input {
+          width: 100%;
+          padding: 0.5rem;
+          margin-top: 0.5rem;
+          overflow: hidden;
+        }
+
+        input,
+        select {
+          border: 2px solid #000;
+          border-radius: 8px;
+          margin-bottom: 1rem;
+          padding: 0.3rem 2rem;
+        }
+
+        .label-container {
+          margin-bottom: 1rem;
+
+          .name-label {
+            margin-bottom: 1.2rem;
+          }
+        }
+      }
+
+      .left-div {
+        height: 100%;
+      }
+
+      .right-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 800px;
+
+        .item-selection {
+          width: 100%;
+
+          .fixed-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            height: 30px;
+            padding: 5px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+            margin-bottom: 15px;
+          }
+
+          .scrollable-div {
+            min-height: 400px;
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 20px;
+            scrollbar-width: thin;
+            scrollbar-color: var(--SecondaryColorSunflowerYellow)
+              var(--SecondaryColorSoftOrange);
+          }
+
+          .item-entry {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+
+            .label-container {
+              flex: 1;
+              min-width: 100px;
+
+              .item-type,
+              .item-name {
+                width: 100%;
+                padding: 10px;
+                margin-top: 0.5rem;
+                overflow: hidden;
+                max-width: 200px;
+              }
+
+              .quantity {
+                max-width: 90px;
+                padding: 10px;
+                overflow: hidden;
+                margin-top: 0.5rem;
+              }
+            }
+
+            .remove-item {
+              background: var(--AccentColorCoralRed);
+              color: white;
+              font-weight: 900;
+              width: 50px;
+              padding: 8px 14px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              position: sticky;
+              z-index: 1;
+            }
+          }
+        }
+
+        .confirm {
+          &:hover {
+            background: var(--HoverEmeraldGreen);
+          }
+        }
+
+        .cancel {
+          &:hover {
+            background: var(--HoverSunflowerYellow);
+          }
+        }
+
+        .add-item {
+          margin-top: 10px;
+          background: var(--PrimaryColorEmeraldGreen);
+          color: white;
+          font-weight: 700;
+          width: 120px;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+
+        .name-label {
+          margin-bottom: 1.2rem;
+        }
+
+        .button-container {
+          display: flex;
+          gap: 4rem;
+          margin: auto;
+        }
+      }
+    }
+  }
+}

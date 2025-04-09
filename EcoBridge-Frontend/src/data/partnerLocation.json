@@ -1,0 +1,62 @@
+[
+  {
+    "pub_key": "76aac31a338f4396ee00dbff3005e8ad7e063faf11f960b7df3e2d27331ac6183ed523ff7d7862eef08450de0aa9539e8564c1575e1ef2423241ccb77e9ba32e",
+    "name": "Barangay San Isidro",
+    "description": "A bustling barangay located in the heart of the city with diverse residents and active community programs.",
+    "username": "sanisidro_admin",
+    "password": "hashedpassword123",
+    "email": "admin@sanisidro.ph",
+    "address": "123 San Isidro St., Quezon City, Metro Manila",
+    "latitude": 14.676,
+    "longitude": 121.0437,
+    "contact_information": {
+      "mobile": "09171234567"
+    },
+    "created_at": "2025-04-06T08:00:00Z",
+    "verification_status": "Verified",
+    "population": 4500,
+    "average_food_consumption": 1200,
+    "average_water_consumption": 2500,
+    "average_clothing_consumption": 800
+  },
+  {
+    "pub_key": "76aac31a338f4396ee00dbff3005e8ad7e063faf11f960b7df3e2d27331ac6183ed523ff7d7862eef08450de0aa9539e8564c1575e1ef2423241ccb77e9ba32e",
+    "name": "Barangay Talamban",
+    "description": "A barangay located in the northern district of Cebu City known for its peaceful neighborhoods and schools.",
+    "username": "talamban_admin",
+    "password": "securepassword456",
+    "email": "admin@talamban.ph",
+    "address": "456 Talamban Road, Cebu City, Cebu",
+    "latitude": 10.3756,
+    "longitude": 123.9107,
+    "contact_information": {
+      "mobile": "09179876543"
+    },
+    "created_at": "2025-04-05T12:00:00Z",
+    "verification_status": "Not Verified",
+    "population": 3100,
+    "average_food_consumption": 1000,
+    "average_water_consumption": 2000,
+    "average_clothing_consumption": 600
+  },
+  {
+    "pub_key": "76aac31a338f4396ee00dbff3005e8ad7e063faf11f960b7df3e2d27331ac6183ed523ff7d7862eef08450de0aa9539e8564c1575e1ef2423241ccb77e9ba32e",
+    "name": "Barangay Buli",
+    "description": "A small barangay near Laguna Lake with fishing as one of its main sources of livelihood.",
+    "username": "buli_admin",
+    "password": "anotherpassword789",
+    "email": "admin@buli.ph",
+    "address": "789 Buli St., Muntinlupa, Metro Manila",
+    "latitude": 14.3785,
+    "longitude": 121.0453,
+    "contact_information": {
+      "mobile": "09173456789"
+    },
+    "created_at": "2025-04-04T09:30:00Z",
+    "verification_status": "Pending Verification",
+    "population": 1800,
+    "average_food_consumption": 850,
+    "average_water_consumption": 1700,
+    "average_clothing_consumption": 400
+  }
+]

@@ -1,0 +1,105 @@
+:root {
+  --PrimaryColorEmeraldGreen: hsl(145, 63%, 49%);
+  --PrimaryColorTealBlue: hsl(180, 100%, 25%);
+  --SecondaryColorSunflowerYellow: hsl(45, 100%, 51%);
+  --SecondaryColorSoftOrange: hsl(29, 100%, 63%);
+  --AccentColorCoralRed: hsl(0, 100%, 71%);
+  --AccentColorWarmPink: hsl(343, 100%, 65%);
+  --AccentColorNavyBlue: hsl(240, 28%, 14%);
+  --HoverSunflowerYellow: hsl(45, 97%, 60%);
+  --HoverNavyBlue: hsl(240, 21%, 17%);
+  --HoverEmeraldGreen: hsl(145, 85%, 58%);
+}
+
+.modal-container {
+  width: 40vw;
+  border-radius: 10px;
+  margin: 2rem;
+
+  .logo-div {
+    margin: 1rem;
+    .tagline {
+      font-weight: 600;
+    }
+  }
+
+  .info-container {
+    flex-direction: column;
+    height: auto;
+
+    img {
+      height: 30vh;
+      object-fit: cover;
+    }
+
+    .text-info {
+      align-self: flex-start;
+      margin-bottom: 3rem;
+
+      .location-name {
+        margin-top: 1rem;
+      }
+
+      .description {
+        margin: 0.5rem 0;
+        text-align: left;
+        font-size: 1rem;
+      }
+    }
+
+    .button-container {
+      gap: 5rem;
+
+      .cancel {
+        &:hover {
+          background: var(--HoverSunflowerYellow);
+        }
+      }
+
+      .confirm {
+        &:hover {
+          background: var(--HoverEmeraldGreen);
+        }
+      }
+    }
+  }
+}
+
+.btn {
+  padding: .4rem 1.5rem;
+  background: var(--AccentColorNavyBlue);
+  font-family: "Raleway";
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 4rem;
+  width: 10rem;
+  font-weight: 700;
+}
+
+.eco {
+  font-family: "Raleway";
+  color: var(--PrimaryColorEmeraldGreen);
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.bridge {
+  font-family: "Playfair Display", sans-serif;
+  color: var(--SecondaryColorSunflowerYellow);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.cancel {
+  background: var(--SecondaryColorSunflowerYellow);
+  text-transform: uppercase;
+  color: white;
+}
+
+.confirm {
+  background: var(--PrimaryColorEmeraldGreen);
+  text-transform: uppercase;
+  color: white;
+}

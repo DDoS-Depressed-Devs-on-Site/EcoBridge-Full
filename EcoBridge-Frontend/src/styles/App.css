@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --PrimaryColorEmeraldGreen: hsl(145, 63%, 49%);
+  --PrimaryColorTealBlue: hsl(180, 100%, 25%);
+  --SecondaryColorSunflowerYellow: hsl(45, 100%, 51%);
+  --SecondaryColorSoftOrange: hsl(29, 100%, 63%);
+  --AccentColorCoralRed: hsl(0, 100%, 71%);
+  --AccentColorWarmPink: hsl(343, 100%, 65%);
+  --AccentColorNavyBlue: hsl(240, 28%, 14%);
+  --HoverSunflowerYellow: hsl(45, 97%, 60%);
+  --HoverNavyBlue: hsl(240, 21%, 17%);
+  --HoverEmeraldGreen: hsl(145, 85%, 58%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; 
+  transition: .3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Raleway";
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn {
+  padding: .4rem 1.5rem;
+  background: var(--AccentColorNavyBlue);
+  font-family: "Raleway";
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.eco {
+  font-family: "Raleway";
+  color: var(--PrimaryColorEmeraldGreen);
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.bridge {
+  font-family: "Playfair Display", sans-serif;
+  color: var(--SecondaryColorSunflowerYellow);
+  font-style: italic;
+  font-weight: 900;
+  font-size: 2em;
+}
+
+.cancel {
+  background: var(--SecondaryColorSunflowerYellow);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+}
+
+.confirm {
+  background: var(--PrimaryColorEmeraldGreen);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  font-size: 100%;
+}
